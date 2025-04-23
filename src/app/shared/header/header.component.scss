@@ -1,9 +1,17 @@
-.spacer {
-    flex: 1 1 auto;
-  }
-  
-  .mat-toolbar {
-    background: black;
-    color: white;
-  }
+.app-header {
 
+    button{
+        margin: 0 16px;
+    }
+
+    .spacer {
+        flex: 1 1 auto;
+    }
+
+    .mat-toolbar {
+        background: black;
+        color: white;
+        padding: 0 200px;
+    }
+
+}
