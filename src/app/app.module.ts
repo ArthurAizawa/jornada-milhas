@@ -10,6 +10,8 @@ import { CardComponent } from './shared/card/card.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import {MatButtonModule} from '@angular/material/button';
+import { ContainerComponent } from './shared/container/container.component';
+import { HomeComponent } from './page/home/home.component';
 
 
 
@@ -20,6 +22,8 @@ import {MatButtonModule} from '@angular/material/button';
     BannerComponent,
     FooterComponent,
     CardComponent,
+    ContainerComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,

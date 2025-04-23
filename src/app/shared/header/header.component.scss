@@ -1,7 +1,6 @@
 .app-header {
-
-    button{
-        margin: 0 16px;
+    button {
+        margin: 0 12px;
     }
 
     .spacer {
@@ -11,7 +10,24 @@
     .mat-toolbar {
         background: black;
         color: white;
-        padding: 0 200px;
+        padding: 0 16px; // Valor padrão para telas menores
     }
 
+    @media (min-width: 600px) {
+        .mat-toolbar {
+            padding: 0 64px;
+        }
+    }
+
+    @media (min-width: 960px) {
+        .mat-toolbar {
+            padding: 0 120px;
+        }
+    }
+
+    @media (min-width: 1280px) {
+        .mat-toolbar {
+            padding: 0 200px;
+        }
+    }
 }
