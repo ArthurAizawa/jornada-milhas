@@ -8,10 +8,14 @@
     }
 
     .mat-toolbar {
-        background: black;
-        color: white;
+        background: rgb(0, 0, 0);
         padding: 0 16px; // Valor padrão para telas menores
     }
+
+    .mat-toolbar .mat-mdc-button-base.mat-mdc-button-base.mat-unthemed {
+        color: white;
+    }
+
 
     @media (min-width: 600px) {
         .mat-toolbar {
