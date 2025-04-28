@@ -14,7 +14,7 @@ import { ContainerComponent } from './shared/container/container.component';
 import { HomeComponent } from './page/home/home.component';
 import { CardBuscaComponent } from './shared/card-busca/card-busca.component';
 import { MatCardModule } from '@angular/material/card';
-import { DepoimentosComponent } from './shared/depoimentos/depoimentos.component';
+import { CardDepoimentosComponent } from './shared/card-depoimentos/card-depoimentos.component';
 
 
 
@@ -29,7 +29,7 @@ import { DepoimentosComponent } from './shared/depoimentos/depoimentos.component
     ContainerComponent,
     HomeComponent,
     CardBuscaComponent,
-    DepoimentosComponent
+    CardDepoimentosComponent,
   ],
   imports: [
     BrowserModule,
