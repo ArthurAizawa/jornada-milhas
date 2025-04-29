@@ -15,8 +15,13 @@ import { HomeComponent } from './page/home/home.component';
 import { CardBuscaComponent } from './shared/card-busca/card-busca.component';
 import { MatCardModule } from '@angular/material/card';
 import { CardDepoimentosComponent } from './shared/card-depoimentos/card-depoimentos.component';
+import {MatButtonToggleModule} from '@angular/material/button-toggle';
 
-
+import { MatIconModule } from '@angular/material/icon';
+import { FormBuscaComponent } from './shared/form-busca/form-busca.component';
+import { MatChipsModule } from '@angular/material/chips';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 
 
 @NgModule({
@@ -30,13 +35,19 @@ import { CardDepoimentosComponent } from './shared/card-depoimentos/card-depoime
     HomeComponent,
     CardBuscaComponent,
     CardDepoimentosComponent,
+    FormBuscaComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MatToolbarModule,
     MatButtonModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonToggleModule,
+    MatIconModule,
+    MatChipsModule,
+    MatFormFieldModule,
+    MatInputModule
   ],
   providers: [
     provideAnimationsAsync()
