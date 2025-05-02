@@ -27,8 +27,7 @@ import { MatNativeDateModule } from '@angular/material/core';
 import { ModalComponent } from './shared/modal/modal.component'
 import {MatDialogModule} from '@angular/material/dialog';
 import { BotaoControleComponent } from './shared/botao-controle/botao-controle.component';
-import { PromocaoComponent } from './core/services/promocao/promocao.component';
-import { ServicesPromocaoTsComponent } from './core/services.promocao.ts/services.promocao.ts.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -45,8 +44,6 @@ import { ServicesPromocaoTsComponent } from './core/services.promocao.ts/service
     FormBuscaComponent,
     ModalComponent,
     BotaoControleComponent,
-    PromocaoComponent,
-    ServicesPromocaoTsComponent
   ],
   imports: [
     BrowserModule,
@@ -61,7 +58,8 @@ import { ServicesPromocaoTsComponent } from './core/services.promocao.ts/service
     MatInputModule,
     MatDatepickerModule,
     MatNativeDateModule,
-    MatDialogModule
+    MatDialogModule,
+    HttpClientModule
   ],
   providers: [
     provideAnimationsAsync()
