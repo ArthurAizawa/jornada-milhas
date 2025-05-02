@@ -27,6 +27,8 @@ import { MatNativeDateModule } from '@angular/material/core';
 import { ModalComponent } from './shared/modal/modal.component'
 import {MatDialogModule} from '@angular/material/dialog';
 import { BotaoControleComponent } from './shared/botao-controle/botao-controle.component';
+import { PromocaoComponent } from './core/services/promocao/promocao.component';
+import { ServicesPromocaoTsComponent } from './core/services.promocao.ts/services.promocao.ts.component';
 
 
 @NgModule({
@@ -42,7 +44,9 @@ import { BotaoControleComponent } from './shared/botao-controle/botao-controle.c
     CardDepoimentosComponent,
     FormBuscaComponent,
     ModalComponent,
-    BotaoControleComponent
+    BotaoControleComponent,
+    PromocaoComponent,
+    ServicesPromocaoTsComponent
   ],
   imports: [
     BrowserModule,
