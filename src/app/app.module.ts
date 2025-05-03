@@ -28,6 +28,7 @@ import { ModalComponent } from './shared/modal/modal.component'
 import {MatDialogModule} from '@angular/material/dialog';
 import { BotaoControleComponent } from './shared/botao-controle/botao-controle.component';
 import { HttpClientModule } from '@angular/common/http';
+import { PromocoesComponent } from './page/home/promocoes/promocoes.component';
 
 
 @NgModule({
@@ -44,6 +45,7 @@ import { HttpClientModule } from '@angular/common/http';
     FormBuscaComponent,
     ModalComponent,
     BotaoControleComponent,
+    PromocoesComponent,
   ],
   imports: [
     BrowserModule,

@@ -13,7 +13,7 @@ export class FormBuscaComponent {
   
     openDialog() {
       this.dialog.open(ModalComponent, {
-        width: '50%'
+        width: '60%'
       })
     }
   }
